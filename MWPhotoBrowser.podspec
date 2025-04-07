@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   s.weak_frameworks = 'Photos'
   s.static_framework = true
 
-  s.dependency 'MBProgressHUD', '~> 0.9'
+  s.dependency 'MBProgressHUD'
   s.dependency 'DACircularProgress', '~> 2.3'
 
   # SDWebImage
